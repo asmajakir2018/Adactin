@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verifying the login details with valid credentials",
+        "description": "",
+        "id": "verifying-the-adactin-login-page;verifying-the-login-details-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15023259616,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on adactin login page",
+            "match": {
+              "location": "Samp.user_is_on_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 578561608,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should enter the username and password",
+            "match": {
+              "location": "Samp.user_should_enter_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Asmajakir",
+                  "aaleyah"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1831772548,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should able to click the login button",
+            "match": {
+              "location": "Samp.user_should_able_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16984470,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on hotel search page",
+            "match": {
+              "location": "Samp.user_is_on_hotel_search_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1984233786,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should able to select the location,hotel and room_type",
+            "match": {
+              "location": "Samp.user_should_able_to_select_the_location_hotel_and_room_type()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3023099295,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user shoould able to click the search button",
+            "match": {
+              "location": "Samp.user_shoould_able_to_click_the_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1775505010,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is abl to select the hotel by clicking radio button",
+            "match": {
+              "location": "Samp.user_is_abl_to_select_the_hotel_by_clicking_radio_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9286895469,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should able to book a hotel",
+            "match": {
+              "location": "Samp.user_should_able_to_book_a_hotel(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "Address",
+                  "CreditNo",
+                  "Cvv"
+                ]
+              },
+              {
+                "cells": [
+                  "Asma",
+                  "jakir",
+                  "kovilambakkam",
+                  "1234567891034567",
+                  "962"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the adactin login page",
+    "description": "",
+    "id": "verifying-the-adactin-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/LoginPage/LoginPage.feature",
+    "tags": []
+  }
+]
